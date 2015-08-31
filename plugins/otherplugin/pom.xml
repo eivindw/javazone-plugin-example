@@ -5,5 +5,5 @@
         <artifactId>plugins</artifactId>
         <version>1</version>
     </parent>
-    <artifactId>annenplugin</artifactId>
+    <artifactId>otherplugin</artifactId>
 </project>
