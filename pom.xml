@@ -8,11 +8,13 @@
         <module>server</module>
         <module>plugin-api</module>
         <module>plugins</module>
+        <module>micro-services</module>
     </modules>
     <build>
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.3</version>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
