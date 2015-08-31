@@ -1,0 +1,9 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>jz</groupId>
+        <artifactId>plugins</artifactId>
+        <version>1</version>
+    </parent>
+    <artifactId>annenplugin</artifactId>
+</project>

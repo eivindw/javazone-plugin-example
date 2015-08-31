@@ -1,0 +1,29 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>jz</groupId>
+        <artifactId>plugin-example</artifactId>
+        <version>1</version>
+    </parent>
+    <artifactId>plugin-server</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>jz</groupId>
+            <artifactId>plugin-api</artifactId>
+            <version>1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>jz</groupId>
+            <artifactId>testplugin</artifactId>
+            <version>1</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>jz</groupId>
+            <artifactId>annenplugin</artifactId>
+            <version>1</version>
+            <scope>runtime</scope>
+        </dependency>
+    </dependencies>
+</project>
