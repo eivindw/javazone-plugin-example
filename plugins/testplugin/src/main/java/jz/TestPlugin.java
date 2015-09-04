@@ -11,7 +11,7 @@ public class TestPlugin implements Plugin {
     }
 
     @Override
-    public void stopp() {
+    public void stop() {
         System.out.println("TestPlugin stopping..");
     }
 }

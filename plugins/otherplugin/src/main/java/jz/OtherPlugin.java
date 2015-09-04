@@ -11,7 +11,7 @@ public class OtherPlugin implements Plugin {
     }
 
     @Override
-    public void stopp() {
+    public void stop() {
         System.out.println("OtherPlugin stopping..");
     }
 }

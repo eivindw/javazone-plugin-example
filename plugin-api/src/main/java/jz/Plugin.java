@@ -4,5 +4,5 @@ public interface Plugin {
 
     void start();
 
-    void stopp();
+    void stop();
 }

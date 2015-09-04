@@ -17,6 +17,6 @@ public class Server {
 
         // Ved shutdown av server
         System.out.println("Stopping server!\n");
-        pluginLoader.forEach(Plugin::stopp);
+        pluginLoader.forEach(Plugin::stop);
     }
 }
